@@ -3,30 +3,22 @@ Repository exploring the impact of data annotation process requirements on ML mo
 
 
 # darknet folder structure
-darkknet
-├── cfg
-    ├── yolo-obj.cfg
-    ├── yolo-obj-test.cfg
-
-├── testData
-    ├── obj.names
-    ├── obj.data
-    ├── test.txt
- └── obj
-    ├── image1.jpg
-    ├── image1.txt
-    └── ...
-  └── labels
-
-├──data
-    ├── obj.names
-    ├── obj.data
-    ├── train.txt
-    ├── val.txt
-  └── obj
-    ├── image1.jpg
-    ├── image1.txt
-    └── ...
-  └── labels
-├── yolov4.conv.137
-└── ...
+data
+|--- obj.names
+|--- obj.data
+|--- train.txt
+|--- test.txt
+|--- obj
+     |--- train
+          |--- image1.jpg
+          |--- image2.jpg
+          |--- ...
+     |--- test
+          |--- image1.jpg
+          |--- image2.jpg
+          |--- ...
+     |--- obj.data
+     |--- obj.names
+     |--- backup
+          |--- yolov4_last.weights
+          |--- ...
