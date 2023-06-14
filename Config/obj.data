@@ -1,0 +1,5 @@
+classes = 3
+train  = data/train.txt
+valid  = data/val.txt
+names = data/obj.names
+backup = /mimer/NOBACKUP/groups/naiss2023-22-457/Experiments_results/E3D10L0/weights
