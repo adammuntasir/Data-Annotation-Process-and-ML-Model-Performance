@@ -3,6 +3,7 @@ Repository exploring the impact of data annotation process requirements on ML mo
 
 
 # darknet folder structure
+```sh
 data
 |--- obj.names
 |--- obj.data
@@ -22,3 +23,21 @@ data
      |--- backup
           |--- yolov4_last.weights
           |--- ...
+```
+
+
+```sh
+$ tree examples/base/
+examples/base/
+├── docker-compose.yml
+├── README.md
+├── server
+│   ├── crl
+│   │   ├── files
+│   │   │   └── guyf.jpg
+│   │   └── init.d
+│   │       ├── init01-weak_pass_ssh
+│   │       └── init02-red_herring
+│   └── Dockerfile
+└── solve.sh
+```
